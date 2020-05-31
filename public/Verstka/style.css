@@ -252,9 +252,9 @@ input:focus {
   z-index: 1;
   margin-bottom: 50px; }
   .section-heading p {
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-bottom: 0; }
   .section-heading h2 {
     margin-bottom: 10px;
@@ -273,10 +273,10 @@ input:focus {
         font-size: 24px; } }
   .section-heading.white h2,
   .section-heading.white p {
-    color: #ffffff; }
+    color: #cac5c5; }
     .section-heading.white h2 span,
     .section-heading.white p span {
-      color: #ffffff; }
+      color: #bbb8b8; }
 
 #scrollUp {
   background-color: #77b122;
@@ -403,7 +403,7 @@ input:focus {
   position: relative;
   z-index: 1000;
   width: 100%; }
-  .header-area .famie-main-menu {
+  .header-area .famie-bg {
     position: relative;
     width: 100%; }
     .header-area .famie-main-menu .classy-nav-container {
@@ -612,13 +612,13 @@ input:focus {
     position: relative;
     z-index: 1;
     text-align: center; }
-    .breadcrumb-area .breadcrumb-text h2 {
-      color: #ffffff;
+    .breadcrumb-area .breadcrumb-text h3 {
+      color: rgb(192, 188, 188);
       text-transform: uppercase;
       margin-bottom: 0;
       font-size: 40px; }
       @media only screen and (max-width: 767px) {
-        .breadcrumb-area .breadcrumb-text h2 {
+        .breadcrumb-area .breadcrumb-text h3 {
           font-size: 24px; } }
 
 .famie-breadcrumb {
@@ -778,7 +778,7 @@ input:focus {
     cursor: pointer; }
     @media only screen and (max-width: 767px) {
       .newsletter-area form button.famie-btn {
-        width: 130px; } }
+        width: 130Epx; } }
     .newsletter-area form button.famie-btn:hover {
       background-color: #0f1112; }
 

@@ -2394,7 +2394,7 @@ select.form-control-lg:not([size]):not([multiple]) {
     width: 100%;
     margin-top: .25rem;
     font-size: 80%;
-    color: #77b122
+    color: #dc3545
 }
 
 .invalid-tooltip {
@@ -2416,14 +2416,14 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-invalid,
 .was-validated .custom-select:invalid,
 .was-validated .form-control:invalid {
-    border-color: #77b122
+    border-color: #dc3545
 }
 
 .custom-select.is-invalid:focus,
 .form-control.is-invalid:focus,
 .was-validated .custom-select:invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: #77b122;
+    border-color: #dc3545;
     box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25)
 }
 
@@ -2440,7 +2440,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-invalid~.form-check-label,
 .was-validated .form-check-input:invalid~.form-check-label {
-    color: #77b122
+    color: #dc3545
 }
 
 .form-check-input.is-invalid~.invalid-feedback,
@@ -2452,7 +2452,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-control-input.is-invalid~.custom-control-label,
 .was-validated .custom-control-input:invalid~.custom-control-label {
-    color: #77b122e
+    color: #dc3545
 }
 
 .custom-control-input.is-invalid~.custom-control-label::before,

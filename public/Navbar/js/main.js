@@ -14,6 +14,8 @@ $(window).on('scroll', function () {
 
 
 
+
+
 $(document).ready(function(){
 
 // mobile_menu
@@ -31,6 +33,8 @@ if(menu.length){
   // });
 
 // review-active
+
+
 
 
 // for filter
@@ -66,21 +70,8 @@ if(menu.length){
     time: 10000
   });
 
-/* magnificPopup img view */
-$('.popup-image').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
 
-/* magnificPopup img view */
-$('.img-pop-up').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
+
 
 /* magnificPopup video view */
 $('.popup-video').magnificPopup({
@@ -114,15 +105,78 @@ $('.popup-video').magnificPopup({
 
   // blog-page
 
+  //brand-active
 
 // blog-dtails-page
 
+  //project-active
+$('.project-active').owlCarousel({
+  loop:true,
+  margin:30,
+items:1,
+// autoplay:true,
+navText:['<i class="Flaticon flaticon-left-arrow"></i>','<i class="Flaticon flaticon-right-arrow"></i>'],
+nav:true,
+dots:false,
+// autoplayHoverPause: true,
+// autoplaySpeed: 800,
+  responsive:{
+      0:{
+          items:1,
+          nav:false
+
+      },
+      767:{
+          items:1,
+          nav:false
+      },
+      992:{
+          items:2,
+          nav:false
+      },
+      1200:{
+          items:1,
+      },
+      1501:{
+          items:2,
+      }
+  }
+});
 
 if (document.getElementById('default-select')) {
   $('select').niceSelect();
 }
 
+  //about-pro-active
+$('.details_active').owlCarousel({
+  loop:true,
+  margin:0,
+items:1,
+// autoplay:true,
+navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
+nav:true,
+dots:false,
+// autoplayHoverPause: true,
+// autoplaySpeed: 800,
+  responsive:{
+      0:{
+          items:1,
+          nav:false
 
+      },
+      767:{
+          items:1,
+          nav:false
+      },
+      992:{
+          items:1,
+          nav:false
+      },
+      1200:{
+          items:1,
+      }
+  }
+});
 
 });
 

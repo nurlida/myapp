@@ -8,22 +8,22 @@ class Ziyankechter extends Component {
         
   <div>  
       
-    <section className="famie-benefits-area" style={{paddingTop:'2rem'}}>
+    <section className="famie-benefits-area">
         <div className="container">
           <div className="row">
     
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="new/img/bg-img/new2.jpg" class="d-block w-100" alt="..."/>
+                  <img src="new/img/bg-img/new2.jpg" className="d-block w-100" alt="..."/>
                 </div>
                 
                 <div class="carousel-item">
-                  <img src="new/img/bg-img/n22.jpg" class="d-block w-100" alt="..."/>
+                  <img src="new/img/bg-img/n22.jpg" className="d-block w-100" alt="..."/>
                 </div>
                 
                 <div class="carousel-item">
-                  <img src="new/img/bg-img/n11.jpg" class="d-block w-100" alt="..."/>
+                  <img src="new/img/bg-img/n11.jpg" className="d-block w-100" alt="..."/>
                 </div>
               </div>
                 
@@ -69,7 +69,7 @@ class Ziyankechter extends Component {
         <div className="row">
             <div className="col-12">
               <div className="section-heading text-center">
-                <h2><span>Зынкечтер</span></h2>
+                <h2><span>Зыянкечтер</span></h2>
                 <img src="new/img/core-img/decor2.png" alt="" />
               </div>
             </div>

@@ -7,24 +7,25 @@ import './Practice.css'
 
     const images = [
         
-      "https://www.supersadovnik.ru/binfiles/images/00000129/00073576.jpg",
-      "https://selgazeta.ru/images/2016/may/colorado-potato-beetle-582966_1280.jpg"
+      "/new/img/bg-img/gl.jpg",
+      "/new/img/bg-img/gl.jpg"
      
     ];
 
     const smallImages = [
-      "https://www.supersadovnik.ru/binfiles/images/00000129/00073576.jpg",
-      "https://selgazeta.ru/images/2016/may/colorado-potato-beetle-582966_1280.jpg"
+      "/new/img/bg-img/gl.jpg",
+      "/new/img/bg-img/gl.jpg"
+      
        ];
 
  
  class Practice extends Component {
 
-          constructor(props) {
-            super(props);
-            this.state = {
-              photoIndex: 0,
-              isOpen: false
+       constructor(props) {
+         super(props);
+          this.state = {
+            photoIndex: 0,
+            isOpen: false
           };
       }
           render() {
@@ -115,7 +116,7 @@ import './Practice.css'
             {/* Single Accordian Area */}
                 <div className="panel single-accordion">
                     <h6>
-                        <a data-toggle="collapse" href="#C2">Борьба колорадского жука
+                        <a data-toggle="collapse" href="#C2">Коңуз менен күрөшүү
                           <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                           <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                         </a>
@@ -135,7 +136,7 @@ import './Practice.css'
             {/* Single Accordian Area */}
                 <div className="panel single-accordion">
                     <h6>
-                      <a data-toggle="collapse" href="#C3">Борба с колорадским жукам
+                      <a data-toggle="collapse" href="#C3">Коңузга каршы заттар 
                         <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                         <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                       </a>
@@ -155,23 +156,21 @@ import './Practice.css'
             {/* Single Accordian Area */}
                 <div className="panel single-accordion">
                 <h6>
-                    <a data-toggle="collapse" href="#C5">Колоадский жук на пасленовых
+                    <a data-toggle="collapse" href="#C5">Коңуз кандай өсүмдүктөрдө болот?
                       <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                       <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                     </a>
                 </h6>
 
-              <div id="C5" className="accordion-content collapse">
-                    
-                    
-                <div className="row">
+                <div id="C5" className="accordion-content collapse">
+                  <div>
                     <div className="col-12">
                       <div className="accordions" id="accordion" role="tablist" aria-multiselectable="true">
                   
                     {/* Ildet ak keber Single Accordian Area */}
                       <div className="panel single-accordion">
                             <h6>
-                              <a data-toggle="collapse" data-parent="" href="#C11">На картофеле
+                              <a data-toggle="collapse" data-parent="" href="#C11">Картошка
                                 <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                                 <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                               </a>
@@ -243,7 +242,7 @@ import './Practice.css'
                     {/* Ildet Single Accordian Area */}
                     <div className="panel single-accordion">
                             <h6>
-                              <a data-toggle="collapse" data-parent="" href="#C12"> на баклажанах
+                              <a data-toggle="collapse" data-parent="" href="#C12"> Баклажан
                                 <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                                 <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                               </a>
@@ -261,7 +260,7 @@ import './Practice.css'
                     {/* Ildet Single Accordian Area */}
                     <div className="panel single-accordion">
                             <h6>
-                              <a data-toggle="collapse" data-parent="" href="#C12"> на перце
+                              <a data-toggle="collapse" data-parent="" href="#C12">Перец
                                 <span className="accor-open"><i className="arrow_carrot-up" aria-hidden="true" /></span>
                                 <span className="accor-close"><i className="arrow_carrot-down" aria-hidden="true" /></span>
                               </a>

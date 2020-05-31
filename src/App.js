@@ -9,11 +9,14 @@ import Juk from './components/pages/Juk'
 import Contact from './components/Contact';
 import Badyran from './components/pages/Badyran'
 import Osumduk from './components/pages/Osumduk'
+import News from './components/News'
+
 
 
 
 function App() {
   return (
+    
    <div>
     
     <Router>
@@ -21,13 +24,13 @@ function App() {
 
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route path='/jashylcha' component={Jashylcha} />
+              <Route path='/jashylcha/:id' component={Jashylcha} />
               <Route path='/ziy' component={Ziyankechter} />
               <Route path='/juk' component={Juk} />
               <Route path='/contact' component={Contact} />
               <Route path='/badyran' component={Badyran} />
               <Route path='/osumduk' component={Osumduk} />
-            
+              <Route path='/news' component={News} />
             </Switch>
 
         <Footer/>

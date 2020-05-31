@@ -9,19 +9,19 @@ class Home extends Component {
 <div>
   
   {/* slider_area_start */}
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
        
         <div class="carousel-item active">
-          <img class="d-block w-100" src="Navbar/img/banner/banner4.png" alt="First slide"/>
+          <img class="d-block w-100" src="/Navbar/img/banner/banner4.png" alt="First slide"/>
         </div>
        
         <div class="carousel-item">
-          <img class="d-block w-100" src="Navbar/img/banner/banner1.jpg" alt="Second slide"/>
+          <img class="d-block w-100" src="/Navbar/img/banner/banner1.jpg" alt="Second slide"/>
         </div>
        
         <div class="carousel-item">
-          <img class="d-block w-100" src="Navbar/img/banner/banner2.jpg" alt="Third slide"/>
+          <img class="d-block w-100" src="/Navbar/img/banner/banner2.jpg" alt="Third slide"/>
         </div>
       </div>
       
@@ -45,7 +45,7 @@ class Home extends Component {
             <div className="about-us-content mb-100">
               <div className="section-heading">
                 <h2><span> Өсүмдүктөрдү</span> коргоо</h2>
-                <img src="new/img/core-img/decor.png" alt="" />
+                <img src="/new/img/core-img/decor.png" alt="" />
               </div>
                 <p>Өсүмдүктөр дүйнөсү (өсүмдүктөр) – жер бетинде же анын айрым аймактарында өсүп турган,
                    алардын саны жана өсүмдүктөрдүн артүркүн топтору, алардын аймактары, түзүмү жана 
@@ -60,7 +60,7 @@ class Home extends Component {
           {/* Famie Video Play */}
         <div className="col-12 col-md-4">
             <div className="famie-video-play mb-100">
-              <img src="new/img/bg-img/gl.jpg" alt="" />
+              <img src="/new/img/bg-img/gl.jpg" alt="" />
               <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" className="play-icon"><i className="fa fa-play" /></a>
             </div>
         </div>
@@ -72,7 +72,7 @@ class Home extends Component {
 
   {/* ##### kategoriya charba start Area Start ##########################################*/}
   <section className="services-area d-flex flex-wrap bg-gray ">
-    <div className="services-thumbnail bg-img jarallax" style={{backgroundImage: 'url("new/img/bg-img/veg.jpg")'}} />
+    <div className="services-thumbnail bg-img jarallax" style={{backgroundImage: 'url("new/img/bg-img/27.jpg")'}} />
       <div className="services-content section-padding-100-50 px-5">
         <div className="container-fluid">
           <div className="row">
@@ -80,7 +80,7 @@ class Home extends Component {
               <div className="section-heading">
               <p>Категория</p>
               <NavLink to='jashylcha'><h2><span>Жашылча</span> жемиштер</h2></NavLink>
-              <img src="new/img/core-img/decor.png" alt="" />
+              <img src="/new/img/core-img/decor.png" alt="" />
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ class Home extends Component {
           <div className="col-12">
             <div className="section-heading text-center">
               <h2><span>Айыл чарба </span> факультети</h2>
-              <img src="new/img/core-img/decor2.png" alt="" />
+              <img src="/new/img/core-img/decor2.png" alt="" />
             </div>
           </div>
       </div>

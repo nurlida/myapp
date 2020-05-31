@@ -6,7 +6,7 @@
 .slicknav_btn {
   position: relative;
   display: block;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   float: right;
   padding: 0.438em 0.625em 0.438em 0.625em;
   line-height: 1.125em;
@@ -107,7 +107,7 @@
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-      background: #ccc;
+      background: rgb(175, 170, 170);
       color: #fff; }
   .slicknav_nav a {
     padding: 5px 10px;
@@ -204,7 +204,7 @@
 }
 
 .slicknav_nav a:hover {
-    background: #77b122 none repeat scroll 0 0;
+    background: #F79960 none repeat scroll 0 0;
     border-radius: 0;
     color: #ffffff;
 }
@@ -223,7 +223,7 @@
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav .slicknav_row:hover .slicknav_arrow {
     border-radius: 0;
-    background-color: #77b122;
+    background-color: #F79960;
     background-color: transparent;
     color: #000;
 }

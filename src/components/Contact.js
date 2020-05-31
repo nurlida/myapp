@@ -8,17 +8,27 @@ import React, { Component } from 'react'
 
   <div>
           
+    <div className="breadcrumb-area " 
+                  style={{backgroundImage: 'url("/new/img/bg-img/2.jpg")'}}>
+      <div style={{marginTop:'1rem'}} className="container h-100">
+        <div className="row h-100 align-items-center">
+          <div className="col-12">
+            <div className="breadcrumb-text">
+              <h2>Байланышуу</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
         {/* ##### Contact Information Area Start ##### */}
-          <section className="contact-info-area bg-gray section-padding-100">
+          <section className="contact-info-area section-padding-100">
             <div className="container">
               <div className="row">
                 <div className="col-12">
               
                   {/* Section Heading */}
-                  <div className="section-heading text-center">
-                      <h2><span>Биз менен</span> байланышуу үчүн</h2>
-                      <img src="new/img/core-img/decor2.png" alt="" />
-                  </div>
+                  
                 </div>
               </div>
             

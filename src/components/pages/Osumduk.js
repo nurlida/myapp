@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {NavLink} from 'react-router-dom'
 
 
 
@@ -10,10 +11,11 @@ class Osumduk extends Component {
   
     <div className="famie-breadcrumb">
         <div className="container">
+        
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
-              <li className="breadcrumb-item"><a href="index.html"><i className="fa fa-home" />Негизги бет
-              </a></li>
+              <li className="breadcrumb-item"><NavLink to="/"><i className="fa fa-home" />Негизги бет
+              </NavLink></li>
                 <li className="breadcrumb-item active" aria-current="page">Өсүмдүктөрдү коргоо</li>
             </ol>
           </nav>
@@ -55,7 +57,7 @@ class Osumduk extends Component {
           
               <blockquote className="famie-blockquote d-flex">
                   <div className="quote-icon pt-2">
-                    <img src="img/core-img/quote.png" alt="" />
+                    <img src="new/img/core-img/quote.png" alt="" />
                   </div>
                   <div className="quote-text">
                     <span>Өсүмдүк коргоонун багыттары</span>
@@ -73,7 +75,7 @@ class Osumduk extends Component {
           </div>
         </div>
     </section>
-      
+           
 </div>
         
     )

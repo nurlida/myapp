@@ -76,7 +76,7 @@
 
                 &:hover,
                 &:focus {
-                    font-weight: 400;
+                    font-weight: 300;
                     color: $hover;
                 }
             }
@@ -87,5 +87,6 @@
         content: "\f105";
         font-family: "FontAwesome";
         color: $text;
+        background: rgb(167, 167, 170);
     }
 }
